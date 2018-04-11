@@ -6,7 +6,7 @@ import java.util.List;
 public class Pronostico {
 
 	private int N;
-	private List<Previsione> colonna;
+	private List<Previsione> colonna; //elenco di previsioni
 
 	public Pronostico(int N) {
 		this.N = N;

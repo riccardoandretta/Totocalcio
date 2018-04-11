@@ -7,7 +7,7 @@ public class Schedina {
 
 	private int N;
 
-	private List<Risultato> colonna;
+	private List<Risultato> colonna; // elenco di risultati
 
 	public Schedina(int N) {
 		this.N = N;
@@ -17,7 +17,7 @@ public class Schedina {
 	// clone constructor
 	public Schedina(Schedina other) {
 		this.N = other.N ;
-		this.colonna = new ArrayList<>(other.colonna) ;
+		this.colonna = new ArrayList<>(other.colonna) ; // ATTENZIONE ALL'ERRORE: this.colonna = other.colonna --> COPIEREI SOLO IL RIFERIMENTO, NON IL CONTENUTO
 	}
 
 	public void add(Risultato valore) {

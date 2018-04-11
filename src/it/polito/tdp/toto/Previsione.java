@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class Previsione {
 	
-	private Set<Risultato> valori ;
+	private Set<Risultato> valori ; // è un SET perchè gli elementi non sono ripetuti
 	
 	public Previsione() {
 		valori = new HashSet<>() ;
